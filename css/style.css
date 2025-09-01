@@ -1,0 +1,101 @@
+/* Basic reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Bahnschrift Light SemiCondensed', sans-serif;
+}
+
+/* Body & Particles */
+body {
+  background: #000;  /* pure black background */
+  color: #fff;       /* white text */
+  min-height: 100vh;
+  position: relative;
+  overflow-x: hidden;
+}
+
+#particles-js {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  z-index: -1;  /* behind everything */
+}
+
+#home {
+  display: flex;
+  justify-content: center;   /* centers horizontally */
+  align-items: center;       /* centers vertically */
+  text-align: center;        /* makes text centered */
+  min-height: 60vh;          /* pushes it down to middle of screen */
+}
+
+
+/* Header */
+header {
+  text-align: center;
+  padding: 40px 20px 20px 20px;
+}
+
+header h1 {
+  font-size: 3em;
+  margin-bottom: 20px;
+  color: #fff;
+  text-shadow: 2px 2px 8px #444; /* subtle glow */
+}
+
+
+/* Navigation */
+nav {
+  margin-bottom: 40px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #fff;  /* white by default */
+  margin: 0 15px;
+  font-size: 1.2em;
+  transition: 0.3s;
+}
+
+nav a:hover {
+  color: #fdfd96;  /* pale light yellow on hover */
+}
+
+/* Sections */
+section {
+  max-width: 900px;
+  margin: auto;
+  padding: 20px;
+  font-size: 1.1em;
+  line-height: 1.8;
+  color: #e0e0e0; /* softer white for readability */
+}
+
+/* Lists */
+ul {
+  list-style-type: square;
+  padding-left: 20px;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+/* Images */
+img {
+  border-radius: 50%;   /* makes it circular */
+  margin-top: 20px;
+  border: 3px solid #fdfd96;  /* pale yellow glowing border */
+}
+
+/* Links */
+a {
+  color: #fff;
+  transition: 0.3s;
+}
+
+a:hover {
+  color: #fdfd96; /* pale light yellow */
+  text-decoration: underline;
+}
